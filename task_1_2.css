@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background-color:#DCDCDC;
+	font-family: "Microsoft Yahei" ;
+}
+nav {
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	margin-top: -20px;
+	padding-top: 0px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav #logo {
+	float: left;
+	height: 70px;
+}
+nav #nav_bar {
+	float: right;
+	padding-top: 10px;
+}
+nav ul li {
+	display: inline;
+}
+.article, .image, .section_1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 920px;
+	background-color:white;
+}
+.h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.h2 {
+	font-size: 1.2em;
+}
+.author {
+	font-size: 0.8em;
+}
+div.image .images {
+	border: 1px solid red;
+	padding: 20px;
+	margin:20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+div.image img {
+	width: 200px;
+	height: auto;
+}
+div.image p {
+	text-align: center;
+}
+div.image h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.article #paiming {
+	padding-left: 50px;
+}
+#table1 {
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 920px;
+	border: 1px solid grey;
+}
+#table1 tr, #table1 td {
+	margin: 0;
+	padding: 0;
+}
+#table1 .biaotou {
+	background-color: black;
+	color: white;
+	border: 1px solid grey;
+}
+#table1 .zongji {
+	background-color: grey;
+	font-size: bold;
+	border: 1px solid grey;
+}
+#table1 .neirong {
+	border: 1px solid grey;
+}
+.section_1 #side_bar_h1 {
+	border-left: 2px solid black;
+	padding-left: 20px;
+}
+.section_1 {
+	height: 400px;
+}
+.section_1 form {
+	width: 920px;
+}
+.section_1 label {
+	width: 35%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	height: 25px;
+}
+.section_1 input, .section_1 select, .section_1 textarea {
+	width: 60%;
+	float: right;
+}
+.section_1 p {
+	width: 60%;
+	float: right;
+	font-weight: lighter;
+	font-size: 0.8em;
+}
+.section_1 div {
+	clear:left;
+}
+.section_1 input[type="submit"] {
+	clear: left;
+	width: 920px;
+	height: 40px;
+	background-color: blue;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+}
+div#footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	clear: right;
+	font-size: 0.5em;
+	text-align: center;
+	width: 960px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;

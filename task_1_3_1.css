@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: "Microsoft Yahei"
+}
+div.container {
+	background-color: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+	min-width: 600px;
+	margin: 0 auto;
+}
+div.team {
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	width: 160px;
+	background-color: white;
+	border: 1px solid #999;
+}
+div.team img {
+	float: left;
+}
+div.photo {
+	float: right;
+	width: 120px;
+	margin: 20px;
+	background-color:white;
+	border: 1px solid #999;
+}
+div.photo div {
+	margin: 20px;
+}
+div.introduction {
+	margin-top: 20px;
+	padding: 20px;
+	margin-left: 240px;
+	margin-right: 160px;
+	background-color: white;
+	border: 1px solid #999;
+}
